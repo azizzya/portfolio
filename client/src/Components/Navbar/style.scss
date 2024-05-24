@@ -1,0 +1,147 @@
+
+.navbar-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #380000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo-wrapper {
+    width: 60px;
+    height: 60px;
+    background-color: #620000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 12px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.search {
+    margin-left: 40px;
+}
+
+.search-form {
+    width: 1000px;
+    height: 60px;
+
+    background-color: #620000;
+    
+    border: 0;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    margin-left: 12px;
+
+    width: 30px;
+}
+
+.search-input {
+    margin-left: 12px;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: transparent;
+    border: 0;
+    
+    font-size: 20px;
+
+    &::placeholder {
+        color: #A60000;
+    }
+
+    &:active {
+        border: 0;
+    }
+}
+
+.search-button {
+    margin: 0 12px;
+
+    width: 100px;
+    height: 36px;
+
+    border: 0;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    background-color: #850000;
+
+    &:hover {
+        background-color: #780000;
+    }
+}
+
+.profile {
+    margin-left: 40px;
+
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.profile-photo {
+    width: 60px;
+    height: 60px;
+    
+    border: 0;
+    border-radius: 12px;
+
+}
+
+.modal {
+    box-sizing: border-box;
+    width: 140px;
+    padding: 16px 20px;
+
+    background-color: #620000;
+    border: 0;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    position: absolute;
+    top: 110px;
+
+    cursor: default;
+}
+
+.modal-link {
+    color: white;
+    text-decoration: none;
+
+    font-size: 16px;
+
+    &:hover {
+        color: #cacaca;
+    }
+}

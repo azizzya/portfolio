@@ -1,0 +1,186 @@
+
+.post {
+    width: 910px;
+}
+
+.post-author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.post-author-photo {
+    width: 60px;
+    height: 60px;
+
+    border: 0;
+    border-radius: 16px;
+}
+
+.post-author-name {
+    font-size: 40px;
+}
+
+.post-tile {
+    width: 100%;
+    height: 500px;
+}
+
+.post-photo {
+    width: 100%;
+    height: 100%;
+
+    border: 0;
+    border-radius: 15px;
+}
+
+.post-footer {
+    box-sizing: border-box;
+    margin-top: 16px;
+    width: 100%;
+    background-color: #330000;
+
+    border: 0;
+    border-radius: 15px;
+
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    box-sizing: border-box;
+    width: 100%;
+
+    background-color: #620000;
+    border-radius: 10px;
+
+    padding: 16px 16px;
+}
+
+.description-text {
+    margin: 0;
+}
+
+.post-lower-footer {
+    margin-top: 16px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+
+    background-color: #860000;
+
+    border: 0;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: #a30000;
+    }
+}
+
+.button-img {
+    width: 100%;
+
+    &-like {
+        width: 24px;
+    }
+    &-dislike {
+        padding-top: 5px;
+        width: 24px;
+    }
+    &-share {
+        width: 24px;
+    }
+}
+
+.comments {
+    width: 100%;
+}
+
+.comment-form {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #620000;
+    
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.comment-input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+
+    &::placeholder {
+        color: #A60000
+    }
+}
+
+.comment-send-button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.comment-send-img {
+    width: 24px;
+    height: 24px;
+}
+
+.comment {
+    box-sizing: border-box;
+    width: 215px;
+
+    margin-top: 12px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #620000;
+
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.comment p {
+    margin: 0;
+    margin-left: 12px;
+    margin-bottom: -2px;
+}
+
+.comment-author-photo {
+    width: 24px;
+    height: 24px;
+
+    border: 0;
+    border-radius: 4px;
+}
