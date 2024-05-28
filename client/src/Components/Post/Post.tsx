@@ -16,7 +16,7 @@ const Post: FC<PostProps> = () => {
         <div className="post">
             <div className="post-author">
                 <img src={photo} alt="" className='post-author-photo'/>
-                <p className='post-author-name'>Азиз Мадаминов</p>
+                <p className='post-author-name'>Акира Фудзии</p>
             </div>
             <div className="post-tile">
                 <img src={post_photo} alt="postPhoto" className='post-photo' />

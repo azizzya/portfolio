@@ -19,14 +19,14 @@ const Navbar: FC<NavbarProps> = () => {
                         <img src={logo} alt="Logo" className='logo'/>
                     </div>
                 </Link>
-                <div className="search">
+                <div className="navbar-search">
                     <form className='search-form'>
                         <img src={search} alt='' className='search-icon'/>
                         <input type="text" placeholder='ПОИСК' className='search-input'/>
                         <button className='search-button'>НАЙТИ</button>
                     </form>
                 </div>
-                <div className="profile" >
+                <div className="navbar-profile" >
                     <img src={photo} alt='' className='profile-photo' onClick={() => {
                         if (profileVisible === false) setProfileVisible(true);
                         if (profileVisible === true) setProfileVisible(false);
