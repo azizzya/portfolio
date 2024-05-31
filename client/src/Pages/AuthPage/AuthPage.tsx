@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './style.scss'
 
 interface Props {
@@ -23,7 +24,7 @@ const AuthPage = (props: Props) => {
                     </div>
                 </div>
 
-                <button className='auth-form-button'>ВОЙТИ</button>
+                <Link to={'/'} className='auth-form-button'>ВОЙТИ</Link>
             </form>
         </div>
     )
