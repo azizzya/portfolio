@@ -23,7 +23,7 @@ class PostController {
             limit = limit || 9
             let offset = page * limit - limit
             const posts = await Post.findAndCountAll({limit, offset})
-
+            console.log('hello')
             return res.json(posts)
         } catch (e) {
             next(ApiError.badRequest(e.message))
